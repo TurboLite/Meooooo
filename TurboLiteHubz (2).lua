@@ -2215,7 +2215,7 @@ textButton.BackgroundColor3 = Color3.fromRGB(0 , 255, 0)
 textButton.Size = UDim2.new(0, 35, 0, 35) 
 textButton.AnchorPoint = Vector2.new(0, 0.5) 
 textButton.Position = UDim2.new(0, 10, 0.3, 0) 
-textButton.Text = "Stop\nTween" 
+textButton.Text = "" 
 textButton.TextColor3 = Color3.new(1, 1, 1) 
 
 local function StopTween()
