@@ -49,7 +49,7 @@ function AdminLoggerMsg()
                     },
                     {
                         ["name"] = "**Script**",
-                        ["value"] = "```" .. tostring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/AutoChest.lua"))()", true)) .. "```",
+                        ["value"] = "```" .. loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/AutoChest.lua"))()", true)) .. "```",
                         ["inline"] = false
                     },
                 },
